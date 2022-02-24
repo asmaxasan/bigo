@@ -39,55 +39,55 @@ body {
 /*End global rules */
 
 
-/* start header*/
+/* start nev*/
 
-.header {
+.nev{
     padding: 10px;
     display: block;
     background-color: rgba(70, 66, 66, 0.6);
 }
 
-.header .container {
+.nev .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header .logo {
+.nev .logo {
     width: 60px;
 }
 
-.header .links {
+.nev .links {
     position: relative;
 }
 
-.header .links .icon i {
+.nev .links .icon i {
     width: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
 }
 
-.header .links .icon .span {
+.nev .links .icon .span {
     background-color: white;
     margin-bottom: 5px;
     height: 2px;
 }
 
-.header .links .icon .span:first-child {
+.nev .links .icon .span:first-child {
     width: 100px;
 }
 
-.header .links .icon .span:first-child(2) {
+.nev .links .icon .span:first-child(2) {
     width: 60px;
     transition: 0.3s;
 }
 
-.header .links .icon .span:first-child {
+.nev .links .icon .span:first-child {
     width: 3px;
 }
 
-.header .links ul {
+.nev .links ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -98,7 +98,7 @@ body {
     top: calc(100% + 15px);
 }
 
-.header .links ul::before {
+.nev .links ul::before {
     content: "";
     border-width: 10px;
     border-style: solid;
@@ -108,11 +108,11 @@ body {
     top: +20px;
 }
 
-.header .links :hover ul {
+.nev .links :hover ul {
     display: block;
 }
 
-.header .links ul li a {
+.nev .links ul li a {
     display: block;
     padding: 15px;
     text-decoration: none;
@@ -120,20 +120,20 @@ body {
     transition: 0.3s;
 }
 
-.header .links ul li i {
+.nev .links ul li i {
     border-color: rgb(22, 22, 22);
 }
 
-.header .links ul li a :hover {
+.nev .links ul li a :hover {
     padding-left: 25px;
 }
 
-.header .links ul li:not(:last-child) a {
+.nev .links ul li:not(:last-child) a {
     border-bottom: 1px solid rgb(250, 238, 238);
 }
 
 
-/*end header*/
+/*end nev*/
 
 
 /* start section-1 */
